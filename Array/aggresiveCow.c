@@ -8,9 +8,9 @@ void insertion(int arr[], int n)
         {
             if (arr[j] < arr[j - 1])
             {
-                int temp = arr[j - 1];
+                int tempr = arr[j - 1];
                 arr[j - 1] = arr[j];
-                arr[j] = temp;
+                arr[j] = tempr;
             }
             else
             {
